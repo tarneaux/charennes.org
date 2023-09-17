@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import Navbar from './components/Navbar'
 
-export const Baskerville = localFont({
+const Baskerville = localFont({
 	src: [
 		{
 			path: './font/LibreBaskerville-Regular.ttf',
