@@ -13,6 +13,7 @@ export default function Home() {
 							<p>Charennes est un hébergeur de services web dont le but est de fournir des alternatives libres et éthiques aux services des GAFAM.</p>
 							<p>Tous nos services sont accessibles gratuitement, sans publicité et sans traçage. Contrairement aux GAFAM, nous ne vendons pas vos données à des tiers.</p>
 							<p>Nous avons pour objectif d&lsquo;intégrer le collectif <a href="https://www.chatons.org/">CHATONS</a>, qui regroupe des hébergeurs respectueux de vos données.</p>
+							<p>Les services sont hébergés sur des serveurs dédiés nous appartenant. Nous ne louons pas de serveurs chez des prestataires tiers.</p>
 						</div>
 					</div>
 					<div>
@@ -28,6 +29,7 @@ export default function Home() {
 								<li><a href="/services/searxng">SearXNG</a>: une interface alternative combinant les résultats de plusieurs moteurs de recherche.</li>
 								<li><a href="/services/gitea">Gitea</a>: un service d&lsquo;hébergement de dépôts Git (pour les développeurs informatiques).</li>
 								<li><a href="/services/web">Hébergement web</a>: hébergez votre site web sur nos serveurs.</li>
+								<li><a href="/services/shell">Shell UNIX</a>: connectez-vous à l&lsquo;un de nos serveurs en SSH (pour utilisateurs avancés).</li>
 							</ul>
 						</div>
 					</div>
