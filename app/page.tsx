@@ -5,7 +5,7 @@ import Banner from './image/banner.webp'
 export default function Home() {
   return (
 		<main className="grid flex-grow w-screen">
-			<div className="p-4 z-10 flex flex-col items-center justify-start row-[1] col-[1] mt-[10%]">
+			<div className="p-4 z-10 flex flex-col items-center justify-start row-[2] sm:row-[1] col-[1] mt-[10%]">
 				<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 					<div>
 						<div className="bg-white border border-black rounded p-4">
@@ -35,7 +35,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="row-[1] col-[1] min-h-full h-0">
+			<div className="row-[1] col-[1] mb-[-100px] sm:min-h-full sm:h-0">
 				<Image src={Banner} alt="Dessin de David Revoy représentant des chats sur une île flottant dans le ciel" width={1920} className="overflow-hidden max-h-full object-cover w-full" />
 			</div>
 		</main>
