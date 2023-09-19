@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		@apply 4xl:text-lg;
+		@apply 5xl:text-xl;
+		@apply 6xl:text-2xl;
+		@apply 7xl:text-3xl;
+		@apply 8xl:text-4xl;
+		@apply 9xl:text-5xl;
+		@apply 10xl:text-6xl;
+	}
 	body {
 		@apply bg-white;
 		@apply text-gray-900;
