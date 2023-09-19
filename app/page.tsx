@@ -5,9 +5,9 @@ import Banner from './image/banner.webp'
 export default function Home() {
   return (
 		<main className="grid flex-grow w-screen">
-			<div className="p-4 z-10 flex flex-col items-center justify-start row-[2] sm:row-[1] col-[1] mt-[10%]">
+			<div className="p-4 z-10 flex flex-col items-center justify-center row-[2] sm:row-[1] col-[1] mt-[10%]">
 				<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-					<div>
+					<div className="max-w-3xl">
 						<div className="bg-white border border-black rounded p-4">
 							<h2>Charennes: des services libres et éthiques</h2>
 							<p>Charennes est un hébergeur de services web dont le but est de fournir des alternatives libres et éthiques aux services des GAFAM.</p>
@@ -16,7 +16,7 @@ export default function Home() {
 							<p>Les services sont hébergés sur des serveurs dédiés nous appartenant. Nous ne louons pas de serveurs chez des prestataires tiers.</p>
 						</div>
 					</div>
-					<div>
+					<div className="max-w-3xl">
 						<div className="bg-white border border-black rounded p-4">
 							<h2>Accès rapide aux services</h2>
 							<a href="/services">Liste complète des services</a>
