@@ -13,8 +13,8 @@ const links = [
 		href: '/services'
 	},
 	{
-		text: 'Contact',
-		href: '/contact'
+		text: 'À propos',
+		href: '/about'
 	},
 ]
 
@@ -80,7 +80,7 @@ function DropdownNavLink(text: string, href: string, key: number) {
 	return (
 		<a
 			href={href}
-			className="block m-2 p-2 hover:bg-orange-400 border border-gray-800 rounded bg-gray-100 text-gray-900"
+			className="block m-2 p-2 hover:bg-orange-400 border border-gray-800 rounded bg-gray-100 text-gray-900 whitespace-nowrap"
 			key={key}
 			>
 			{text}
