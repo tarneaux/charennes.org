@@ -26,7 +26,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 border-b border-black bg-[#7edb43]">
+    <nav className="flex items-center justify-between p-6 border-b border-black bg-[#7edb43]">
       <div className="flex items-center flex-shrink-0 mr-6 grow justify-center sm:grow-0">
         <span className="font-bold text-xl">Charennes</span>
       </div>
