@@ -5,8 +5,8 @@ import Banner from './image/banner.webp'
 export default function Home() {
   return (
 		<main className="grid flex-grow w-screen">
-			<div className="p-4 z-10 flex flex-col items-center justify-center row-[2] sm:row-[1] col-[1] mt-[10%]">
-				<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+			<div className="p-4 z-10 flex flex-col items-center justify-center row-[2] lg:row-[1] col-[1] mt-[10%]">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 					<div className="max-w-3xl">
 						<div className="bg-white border border-black rounded p-4">
 							<h2>Charennes: des services libres et éthiques</h2>
@@ -35,7 +35,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="row-[1] col-[1] mb-[-100px] sm:min-h-full sm:h-0">
+			<div className="row-[1] col-[1] mb-[-300px] lg:min-h-full lg:h-0">
 				<Image src={Banner} alt="Dessin de David Revoy représentant des chats sur une île flottant dans le ciel" width={1920} className="overflow-hidden max-h-full object-cover w-full" />
 			</div>
 		</main>
