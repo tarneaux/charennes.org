@@ -14,7 +14,7 @@ const links = [
 	},
 	{
 		text: 'À propos',
-		href: '/about'
+		href: '/#about'
 	},
 ]
 
